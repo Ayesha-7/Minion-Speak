@@ -31,6 +31,7 @@ textarea {
     padding: 1rem;
     font-family: 'Kalam', cursive;
     font-size: larger;
+    color: #333;
 }
 
 .heading {
@@ -39,18 +40,20 @@ textarea {
     text-align: center;
     background-color: #F2C94C;
     width: 100%;
+    color: #333;
 }
 
 
 
 #translate-output {
-    min-height: 10vh;
-    max-height: 20vh;
+    min-height: 20vh;
     overflow: scroll;
     border: 1px solid var(--black);
     padding: 1rem;
     font-family: 'Kalam', cursive;
     font-size: larger;
+    color: #333;
+
 }
 
 button {
@@ -61,12 +64,15 @@ button {
     font-family: 'Kalam', cursive;
     font-size: larger;
     border-radius: 1rem;
+    color: #333;
+
 }
 
 #btn-translate:hover {
     background: #ffc042;
     text-decoration: none;
     cursor: pointer;
+    
 }
 
 footer {
@@ -76,10 +82,17 @@ footer {
     padding: 1rem;
     bottom: 0;
     background-color: #F2C94C;
+    color: #333;
 }
 
 footer p {
     max-width: 600px;
     margin: auto;
     font-size: medium;
+    display: inline-block;
+
+}
+
+img{
+    width: 5%;
 }
