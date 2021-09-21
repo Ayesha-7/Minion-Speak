@@ -6,4 +6,4 @@ Enter English sentence in input field and translator will translate it to Minion
 
 For this project I have used funtranslations API.
 
-Written in HTML, CSS and VanillaJS.
+Written in HTML, CSS and VanillaJS and hosted on Netlify.
