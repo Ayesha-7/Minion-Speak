@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
 
 :root {
-    --yellow: #ffe347C;
+    --yellow: rgb(244, 217, 60);
     --black: rgb(51, 51, 51);
     --blue: rgb(33, 44, 197);
 }
@@ -14,6 +14,9 @@ body{
     font-family: 'Kalam', cursive;
     margin: 0px;
     height: 100vh;
+    background-image: url(/images/238-2386291_iphone-minions-wallpaper-hd.jpg);
+    background-repeat: no-repeat;
+    background-size: 20% 82%;
 }
 
 main {
@@ -39,9 +42,10 @@ textarea {
     font-size: 2rem;
     padding: 1rem;
     text-align: center;
-    background-color: var(--yellow);
+    background-color: rgb(244, 217, 60);
     width: 100%;
-    color: rgb(33, 44, 197);;
+    color: rgb(33, 44, 197);
+    font-weight: 700;
 }
 
 
@@ -64,13 +68,14 @@ button {
     padding: 1rem 2rem;
     font-family: 'Kalam', cursive;
     font-size: larger;
+    font-weight: 700;
     border-radius: 1rem;
     color: var(--blue);
 
 }
 
 #btn-translate:hover {
-    background: var(--yellow);
+    background: #E8BB1D;
     text-decoration: none;
     cursor: pointer;
     
@@ -82,8 +87,8 @@ footer {
     width: 100%;
     padding: 1rem;
     bottom: 0;
-    background-color: var(--yellow);
-    color: var(--black);
+    background-color: rgb(244, 217, 60);
+    color: black;
 }
 
 footer p {
